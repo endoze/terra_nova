@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'bundler/setup'
+require 'terra_nova'
+
+Bundler.require(:default, :development)
+
+Fog.mock! unless ENV['NO_MOCK']
+
+Pry.start

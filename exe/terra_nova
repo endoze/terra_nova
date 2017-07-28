@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'bundler/setup'
+
+require 'terra_nova'
+require 'terra_nova/cli'
+
+TerraNova::CLI.start
